@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div id="box">
+            <h2 id="quesBox">This is the dummy question</h2>
+            <div class="row">
+                <input class="options" id="option1" type="radio" name="option" value="a">
+                <label for="option1"> Option 1</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option2" type="radio" name="option" value="b">
+                <label for="option2"> Option 2</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option3" type="radio" name="option" value="c">
+                <label for="option3"> Option 3</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option4" type="radio" name="option" value="d">
+                <label for="option4"> Option 4</label>
+            </div>
+            <button type="button" class="btn" onclick="submitQuiz()">Submit</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
