@@ -1,0 +1,46 @@
+
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    margin-top: 10px;
+  
+}
+
+button{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    gap: 30px;
+}
+
+#post1{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+
+#eror{
+    color: red;
+}
+
+.fa-solid{
+    cursor: pointer;
+}
