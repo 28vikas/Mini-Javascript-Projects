@@ -1,0 +1,128 @@
+
+
+body{
+    background-color: #34495e;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+.main{
+    width: 350px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: #dfe6e9;
+    border-radius: 5px;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.add{
+    display: flex;
+    background-color: #636e72;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    height: 20px;
+    cursor: pointer;
+    color: white;
+    
+}
+
+.tasks{
+    text-align: center;
+    font-size: 20px;
+}
+
+.fa-solid{
+    cursor: pointer;
+    padding: 5px;
+   
+}
+
+.task{
+    background-color: #636e72;
+    color: white;
+    padding: 0 8px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    height: fit-content;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.alltask{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#addTask{
+    background-color: #dcdde1;
+    width: 500px;
+    height: 530px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 100px;
+    left: 00px;
+    display: none;
+
+}
+
+input{
+    display: block;
+    width: 100%;
+
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px 5px;
+}
+
+#clsbtn{
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+
+#addbtn{
+    padding: 8px 10px;
+    background-color: rgb(21, 10, 218);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input{
+    padding: 8px 2px;
+    margin-top: 5px
+}
+
+.description{
+    margin: 20px 0;
+}
+
+.tasktitle{
+    margin: 20px 0;
+    
+}
+
+#msg{
+    color: red;
+}

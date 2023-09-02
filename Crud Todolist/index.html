@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2121ef6496.js" crossorigin="anonymous"></script>
+    <style>
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+
+        <h3>TODO App</h3>
+         <div class="add" onclick="showTask()">
+            <p>Add New Task</p>
+            <p><i class="fa-solid fa-plus"></i></p>
+         </div>
+        <h5 class="tasks">Tasks</h5>
+
+         <div class="alltask" id="allitem">
+
+
+         </div>
+         <!-- ---------------------- -->
+
+
+         <div id="addTask">
+            <h3>Add New Task</h3><hr>
+            <form action="" id="form">
+
+                <div class="tasktitle">
+                    <label for="">Task Title</label>
+                    <input type="text" id="textInput" autocomplete="off">
+                    <span id="msg"></span>
+                </div>
+
+                <div class="date">
+                    <label for="">Due date</label>
+                    <input type="date" name="" id="dateInput" autocomplete="off">
+                </div>
+
+                <div class="description">
+                    <label for="">Description</label>
+                  <textarea name="" id="textarea" cols="30" rows="10" ></textarea>
+                </div>
+              
+                 <button id="clsbtn" onclick="hideTask()">Close</button>
+                 <button id="addbtn" onclick="hideTask()" type="submit">Add</button>
+            </form>
+         </div>
+   
+        
+    </div>
+    
+
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
